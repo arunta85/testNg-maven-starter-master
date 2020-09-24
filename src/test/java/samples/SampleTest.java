@@ -10,7 +10,7 @@ public class SampleTest {
 
     @Test(groups = {"unit"})
     public void first(){
-        System.out.println("unit2");
+        System.out.println("unit3");
     }
 
     @Test(groups = {"web"})

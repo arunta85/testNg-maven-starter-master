@@ -10,12 +10,12 @@ public class SampleTest {
 
     @Test(groups = {"unit"})
     public void first(){
-        System.out.println("unit");
+        System.out.println("unit2");
     }
 
     @Test(groups = {"web"})
     public void second(){
-        System.out.println("web");
+        System.out.println("web2");
         Assert.assertEquals("2", "2");
     }
 
